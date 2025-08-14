@@ -10,7 +10,7 @@ document.getElementById('formContato').addEventListener('submit', function(e) {
   }
 
   const texto = `Olá, meu nome é ${nome}. ${mensagem}`;
-  const numeroWhatsApp = '5512982223254'; // substitua pelo número real
+  const numeroWhatsApp = '5512982223254'; 
 
   const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(texto)}`;
   window.open(url, '_blank');
